@@ -1,0 +1,67 @@
+
+h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+};
+
+.nav-link {
+    color: black;
+    cursor: pointer;
+}
+
+.my_h4{
+  padding-top: 10px;
+  padding-bottom: 10px;
+};
+  
+    @font-face {
+        font-family: 'home';
+        src: url("{% static 'myfont/home.otf' %}")
+    }
+
+    @media screen and (min-width: 990px) {
+        .navbar {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 990px) {
+        .navbar {
+            height: 25px
+        }
+    }
+
+    .main-wrapper .page-wrapper .page-content {
+        margin-top: 0px;
+    }
+
+    .btn-outline-primary {
+        font-family: "Arial";
+    }
+
+    iframe {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* .echart {
+        display: block;
+        margin: 0 auto;
+    } */
+
+
+    .my_advance_title{
+        float:left;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-top:10px;
+    }
+
+    /* #advanced > div{
+        padding-left:0;
+        padding-right:0;
+    } */
+    /* .col-md-12:has(#advanced){
+        padding:0;
+    } */
